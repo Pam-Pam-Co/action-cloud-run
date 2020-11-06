@@ -22,7 +22,7 @@ gcloud auth configure-docker
 docker build -t "$INPUT_IMAGE" .
 docker push "$INPUT_IMAGE"
 
-gcloud run deploy "$INPUT_SERVICE" \
+gcloud beta run deploy "$INPUT_SERVICE" \
   --image "$INPUT_IMAGE" \
   --region "$INPUT_REGION" \
   --platform managed \
