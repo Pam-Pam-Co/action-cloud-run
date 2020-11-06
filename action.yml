@@ -1,4 +1,4 @@
-name: 'Cloud Run'
+name: 'Cloud Run Build Push and Deploy '
 description: 'Authenticate with gcloud, build and push image to GCR and deploy as a new revision to Cloud Run'
 author: 'Emre Turan '
 branding:
